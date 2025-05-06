@@ -78,7 +78,6 @@ print("Testing labels shape:", y_test.shape)
 - `y`: Contains binary labels (0 = benign, 1 = malignant).
 - Data is split into 80% for training and 20% for evaluation.
 
----
 
-## ✅ Next Step:
-We are ready to build a machine learning model (e.g., logistic regression or random forest) to predict tumor diagnosis based on these features.
+
+

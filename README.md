@@ -16,7 +16,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn joblib
 ```
 ## Run
 ```bash
-python model_rf_final.py
+python model_rf.py
 ```
 ## Sample Output
 ```bash

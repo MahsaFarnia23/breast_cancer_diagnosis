@@ -15,7 +15,6 @@ This project applies a Random Forest Classifier on the Breast Cancer Wisconsin (
 
 ## 📦 Requirements
 ```bash
-## 📦 Requirements
 - Python 3.8+
 - Libraries:
     - pandas
@@ -24,7 +23,6 @@ This project applies a Random Forest Classifier on the Breast Cancer Wisconsin (
     - matplotlib
     - seaborn
     - joblib
-
 ```
 ## 🚀 Run
 ```bash

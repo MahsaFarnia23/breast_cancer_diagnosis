@@ -17,11 +17,11 @@ This project applies a Random Forest Classifier on the Breast Cancer Wisconsin (
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn joblib
 ```
-## Run
+## 🚀 Run
 ```bash
 python model_rf.py
 ```
-## Sample Output
+## ✅ Sample Output
 ```bash
 Accuracy: 0.96
 
@@ -40,5 +40,5 @@ Confusion Matrix:
  [ 3 40]]
 ```
 
-## License
+## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

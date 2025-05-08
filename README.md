@@ -15,7 +15,16 @@ This project applies a Random Forest Classifier on the Breast Cancer Wisconsin (
 
 ## 📦 Requirements
 ```bash
-pip install pandas numpy scikit-learn matplotlib seaborn joblib
+## 📦 Requirements
+- Python 3.8+
+- Libraries:
+    - pandas
+    - numpy
+    - scikit-learn
+    - matplotlib
+    - seaborn
+    - joblib
+
 ```
 ## 🚀 Run
 ```bash

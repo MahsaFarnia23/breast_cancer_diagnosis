@@ -46,6 +46,21 @@ Confusion Matrix:
 [[70  1]
  [ 3 40]]
 ```
+## 📈 Visualizations
+The script also provides the following visualizations:
+
+### 🔹 Confusion Matrix
+Displays the number of correct and incorrect predictions, segmented by class (Benign vs. Malignant).
+
+### 🔹 Feature Importance Plot
+Shows the most influential features for predicting the diagnosis:
+- Features like `radius_mean`, `texture_mean`, etc. are displayed with their importance scores.
+
+### 🔹 ROC Curve
+Illustrates the model's performance across different classification thresholds, showing the trade-off between True Positive Rate (Sensitivity) and False Positive Rate (1 - Specificity).
+
+---
+
 
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -6,7 +6,7 @@ A machine learning model to classify breast cancer tumors as benign or malignant
 This project applies a Random Forest Classifier on the Breast Cancer Wisconsin (Diagnostic) Dataset to predict if the tumor is malignant or benign.
 
 ## 📂 Files
-- `model_rf_final.py`: Main Python script for data loading, preprocessing, model training, and evaluation.
+- `model_rf.py`: Main Python script for data loading, preprocessing, model training, and evaluation.
 - `data.csv`: Dataset (from Kaggle or UCI link provided).
 - `breast_cancer_preprocessing_summary.md`: Step-by-step preprocessing summary.
 

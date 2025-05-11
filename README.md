@@ -60,6 +60,7 @@ Shows the most influential features for predicting the diagnosis:
 
 ### 🔹 ROC Curve
 Illustrates the model's performance across different classification thresholds, showing the trade-off between True Positive Rate (Sensitivity) and False Positive Rate (1 - Specificity).
+
 ![ROC Curve](images/roc_curve.png)
 ---
 

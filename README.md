@@ -49,9 +49,9 @@ Confusion Matrix:
 ## 📈 Visualizations
 The script also provides the following visualizations:
 
-### 🔹 Confusion Matrix ![Confusion Matrix](images/confusion_matrix.png)
-
+### 🔹 Confusion Matrix 
 Displays the number of correct and incorrect predictions, segmented by class (Benign vs. Malignant).
+![Confusion Matrix](images/confusion_matrix.png)
 
 ### 🔹 Feature Importance Plot
 Shows the most influential features for predicting the diagnosis:

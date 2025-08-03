@@ -65,8 +65,9 @@ Illustrates the model's performance across different classification thresholds, 
 ![ROC Curve](images/roc_curve.png)
 ---
 # Breast Cancer Diagnosis App
-
+## 🌐 Live App
 This is a Streamlit web app that uses a Random Forest Classifier to predict whether a breast tumor is benign or malignant.
-
+You can try the app online here:  
+👉 https://breastcancerdiagnosis-xwiskh48x4ynp8s2ssenc2.streamlit.app/
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

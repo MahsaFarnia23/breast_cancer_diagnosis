@@ -27,6 +27,7 @@ This project applies a Random Forest Classifier on the Breast Cancer Wisconsin (
 ## 🚀 Run
 ```bash
 python model_rf.py
+streamlit run app.py
 ```
 ## ✅ Sample Output
 ```bash

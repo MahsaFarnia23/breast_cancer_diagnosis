@@ -196,16 +196,4 @@ You can try the app online here:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```
-
----
-
-### ✅ Next steps:
-
-- Make sure `lime_explanation.html` is included in your repo
-- If you plan to run it on GitHub Pages or Netlify, you can make that link **clickable online**
-- You can add more LIME examples later if needed
-
-Would you like a version that loops over multiple LIME explanations and stores `lime_explanation_0.html`, `lime_explanation_1.html`, etc.?
-```
 

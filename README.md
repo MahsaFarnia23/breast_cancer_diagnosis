@@ -103,8 +103,8 @@ A LIME explanation is included to interpret the model's prediction on individual
     - scikit-learn
     - matplotlib
     - seaborn
-    - joblib
     - lime
+    - joblib
 ````
 
 ## 🚀 Run

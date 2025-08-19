@@ -87,7 +87,7 @@ We use [LIME (Local Interpretable Model-Agnostic Explanations)](https://github.c
 
 After running `model_rf.py`, the explanation for one test sample is saved as:
 
-* 🔗 [`lime_explanation.html`]([lime_explanation.html]
+* 🔗 [`lime_explanation.html`]([https://htmlpreview.github.io/?https://github.com/MahsaFarnia23/breast_cancer_diagnosis/blob/main/lime_explanation.html]
 * (https://htmlpreview.github.io/?https://github.com/MahsaFarnia23/breast_cancer_diagnosis/blob/main/lime_explanation.html
 )
 [lime_explanation]([https://breastcancerdiagnosis-xwiskh48x4ynp8s2ssenc2.streamlit.app/](https://htmlpreview.github.io/?https://github.com/MahsaFarnia23/breast_cancer_diagnosis/blob/main/lime_explanation.html

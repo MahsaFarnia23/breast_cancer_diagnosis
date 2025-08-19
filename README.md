@@ -75,9 +75,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 
-Absolutely, Mahsa! Here is your **updated `README.md`** with a new section for the **LIME explanation**, keeping the structure and tone of your original version intact:
-
----
 
 ````markdown
 # Breast Cancer Diagnosis

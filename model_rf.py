@@ -8,10 +8,11 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from sklearn.metrics import roc_curve, auc
 import seaborn as sns
-from lime import lime_tabular
 import matplotlib.pyplot as plt
 import joblib
+from lime import lime_tabular
 
 def main():
     # Load the dataset
@@ -55,6 +56,39 @@ def main():
     plt.ylabel('Actual')
     plt.title('Confusion Matrix')
     plt.tight_layout()
+    plt.show()
+
+# === Feature Importance Plot ===
+    feature_importances = model.feature_importances_
+    features = X.columns
+    importance_df = pd.DataFrame({
+        'Feature': features,
+        'Importance': feature_importances
+    }).sort_values(by='Importance', ascending=False)
+
+    plt.figure(figsize=(8, 6))
+    plt.barh(importance_df['Feature'], importance_df['Importance'], color='skyblue')
+    plt.gca().invert_yaxis()
+    plt.title('Feature Importance')
+    plt.xlabel('Importance Score')
+    plt.ylabel('Feature')
+    plt.show()
+
+    # === ROC Curve ===
+    y_probs = model.predict_proba(X_test)[:, 1]
+    fpr, tpr, thresholds = roc_curve(y_test, y_probs)
+    roc_auc = auc(fpr, tpr)
+
+    plt.figure(figsize=(6, 5))
+    plt.plot(fpr, tpr, color='darkorange', lw=2, label=f'ROC Curve (area = {roc_auc:.2f})')
+    plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
+    plt.xlim([0.0, 1.0])
+    plt.ylim([0.0, 1.05])
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
+    plt.title('Receiver Operating Characteristic (ROC) Curve')
+    plt.legend(loc='lower right')
+    plt.grid(True)
     plt.show()
 
     # Save the model (optional)
